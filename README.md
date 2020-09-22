@@ -1,1 +1,3 @@
-# rgb-simulator
+RGB SIMULATOR
+
+![](rgb-simulator.gif)
