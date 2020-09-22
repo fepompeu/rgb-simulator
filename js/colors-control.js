@@ -1,12 +1,10 @@
-window.addEventListener("load", start);
-
-function start() {
+window.addEventListener("load", () => {
   const rangeScale = Array.from(document.querySelectorAll(".custom-range"));
 
   for (let rangeInput of rangeScale) {
     rangeInput.addEventListener("change", renderBoxColor);
   }
-}
+});
 
 function renderBoxColor() {
   const box = document.querySelector("#box");
