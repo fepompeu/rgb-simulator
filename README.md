@@ -1,3 +1,3 @@
-RGB SIMULATOR
+# RGB SIMULATOR
 
-![](rgb-simulator.gif)
+![](/image/rgb-simulator.gif)
