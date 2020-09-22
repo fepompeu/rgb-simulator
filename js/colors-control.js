@@ -2,7 +2,7 @@ window.addEventListener("load", () => {
   const rangeScale = Array.from(document.querySelectorAll(".custom-range"));
 
   for (let rangeInput of rangeScale) {
-    rangeInput.addEventListener("change", renderBoxColor);
+    rangeInput.addEventListener("input", renderBoxColor);
   }
 });
 
